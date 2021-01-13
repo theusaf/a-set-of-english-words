@@ -8,13 +8,13 @@ Derived from [the Letterpress word list][letterpress].
 [npm][]:
 
 ```sh
-npm install @theusaf/a-set-of-english-words
+npm install a-set-of-english-words
 ```
 
 ## Use
 
 ```js
-var words = require('@theusaf/a-set-of-english-words');
+var words = require('a-set-of-english-words');
 
 console.log(words.filter(d => /fun/.test(d)))
 ```
